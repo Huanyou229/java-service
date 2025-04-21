@@ -15,6 +15,7 @@ public class JavaServiceApplication {
         SpringApplication.run(JavaServiceApplication.class, args);
     }
 
+
     @GetMapping("/list")
     public List<String> getList() {
         return List.of("Java", "JavaScript", "Python");
