@@ -18,6 +18,6 @@ public class JavaServiceApplication {
 
     @GetMapping("/list")
     public List<String> getList() {
-        return List.of("Java", "JavaScript", "Python");
+        return List.of("Java", "JavaScript", "Python","Go","C#");
     }
 }
